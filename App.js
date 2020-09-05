@@ -7,7 +7,10 @@ import Index from './src';
 export default function App() {
   return (
     <>
-      <StatusBar style="auto" />
+      <StatusBar 
+        style="auto" 
+        hidden={true}
+      />
       <Index />
     </>
   );
